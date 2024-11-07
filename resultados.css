@@ -104,3 +104,40 @@ figcaption {
     font-size: 14px;
     color: #333;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Botão de Voltar para Home */
+.btn-home {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.btn-home:hover {
+    background-color: #1d7832;
+}
+
+.btn-home::before {
+    content: ""; /* Seta de retorno */
+    font-size: 18px;
+}
